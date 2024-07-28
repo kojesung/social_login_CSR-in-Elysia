@@ -16,9 +16,11 @@
         "noUnusedLocals": false,
         "noUnusedParameters": false,
         "noPropertyAccessFromIndexSignature": false,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
     },
-    "include": ["index.ts"],
+    "include": ["index.ts", "domain/*.ts"],
     "ts-node": {
         "esm": true
     }
